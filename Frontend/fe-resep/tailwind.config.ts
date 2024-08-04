@@ -10,6 +10,13 @@ const config: Config = {
 
   ],
   theme: {
+    colors: {
+      transparent: 'transparent',
+      'first': '#F9EFBA',
+      'second': '#FBCB3B',
+      'third': '#98B356',
+      'fourth': '#101010',
+      },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
