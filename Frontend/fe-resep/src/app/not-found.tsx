@@ -13,6 +13,10 @@ export default function Error404Page() {
           <Image width={500} height={500} src={'/image/404/asset404.png'} alt={'404 asset'} />
         </div>
         <div className='mt-6 lg:mt-12'>
+            <h3 className='text-4xl font-bold text-center text-fourth'>Oh no, we lost this page!</h3>
+            <p className='mt-2 text-center text-fourth'>It appears the receipt that you seek doesnt exist</p>
+        </div>
+        <div className='mt-6'>
           <Link href='/'>
             <Button
               size='lg'
