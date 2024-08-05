@@ -2,16 +2,33 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch 'Backend/**/*.ts' --exec 'ts-node' ./src/index.ts",
+    "seed": "npx ts-node prisma/seeder/seeder.ts",
+    "migrate": "npx prisma migrate dev --schema ./prisma/schema.prisma"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.13.3",
     "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/node": "^22.0.0",
+    "prisma": "^5.17.0"
   }
 }
