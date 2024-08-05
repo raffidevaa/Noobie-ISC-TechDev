@@ -26,7 +26,7 @@ export default function LoginPage() {
             
             {/* Remember Me and Forget Password */}
             <div className="flex justify-between items-center w-full">
-              <Checkbox>
+              <Checkbox color="warning">
                 Remember me
               </Checkbox>
               <Link href="/auth/forget-password" className="text-fourth hover:underline">Forgot Password?</Link>
