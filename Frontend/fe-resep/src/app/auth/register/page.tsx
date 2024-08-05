@@ -32,8 +32,11 @@ export default function RegisterPage() {
                 <Input isRequired size='sm' type="password" label="Password" />
                 <Input isRequired size='sm' type="password" label="Confirm Password" />
                 {/* Terms and condition */}
-                <Checkbox color="warning">I Agree with the <Link onPress={handleOpen} className='text-fourth hover:underline'>term and license *</Link></Checkbox>
-                
+                <div className='flex flex-row'>
+                    <Checkbox color="warning">I Agree with the{' '}</Checkbox>
+                    <Link onPress={handleOpen} className='text-fourth hover:underline'>term and license *</Link>
+                </div>
+                     
                 <Button className='bg-second w-full font-bold'>Register</Button>
             </div>
             <Modal backdrop="blur" isOpen={isOpen} onClose={onClose}>
