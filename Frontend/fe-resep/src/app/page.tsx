@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <Layout withFooter={true}>
-    <div className="h-screen bg-first">
+    <Layout withNavbar={true} withFooter={true}>
+    <div className="h-screen bg-first mt-16">
       <Button>Click me</Button>
     </div>
     </Layout>
