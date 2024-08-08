@@ -19,8 +19,8 @@ export default function Navbar() {
           <span className="self-center text-2xl font-extrabold italic whitespace-nowrap text-fourth">Stovit</span>
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <Button type="button" className="text-fourth bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign In</Button>
-          <Button type="button" className="text-fourth bg-[#FBCB3B] sm:block mb:hidden">Sign Up</Button>
+          <Link className="text-fourth font-medium rounded-lg text-sm px-4 py-2 text-center" href="/auth/login">Sign In</Link>
+          <Link href="/auth/register"><Button type="button" className="text-fourth bg-[#FBCB3B] sm:block mb:hidden">Sign Up</Button></Link>
           <Button 
             data-collapse-toggle="navbar-sticky" 
             type="button" 
