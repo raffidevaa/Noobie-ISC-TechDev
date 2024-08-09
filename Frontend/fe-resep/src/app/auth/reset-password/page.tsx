@@ -8,7 +8,7 @@ export default function ResetPasswordPage() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0 flex justify-center items-center">
         <Image
-          src="/image/auth/back.png"
+          src="/image/auth/backgroundauth.png"
           height={800}
           width={1000}
           alt="Background"

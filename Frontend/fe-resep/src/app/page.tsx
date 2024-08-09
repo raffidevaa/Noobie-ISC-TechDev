@@ -129,7 +129,7 @@ export default function Home() {
             </Swiper>
           </div>
           <div className="absolute z-0 right-0 top-0">
-            <Image src="/image/landing-page/backgroundisc2.png" width={500} height={500} alt="background" />
+            <Image src="/image/landing-page/bghero2.png" width={500} height={500} alt="background" />
           </div>
         </div>
 
