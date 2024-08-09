@@ -203,16 +203,16 @@ export default function Home() {
               Frequently Asked Questions
             </h1>
             <Accordion variant="splitted">
-              <AccordionItem title="1. Why is the Earth round?" className="bg-second font-bold text-fourth">
+              <AccordionItem title="1. Why is the Earth round?" className="bg-third font-bold text-fourth">
                 <span className="font-normal">The Earth is round because of gravity. When the Earth was formed, gravity pulled matter together, forming a sphere as it is the most stable shape.</span>
               </AccordionItem>
-              <AccordionItem title="2. Why is the Earth round?" className="bg-second font-bold text-fourth">
+              <AccordionItem title="2. Why is the Earth round?" className="bg-third font-bold text-fourth">
               <span className="font-normal">The Earth is round because of gravity. When the Earth was formed, gravity pulled matter together, forming a sphere as it is the most stable shape.</span>
               </AccordionItem>
-              <AccordionItem title="3. Why is the Earth round?" className="bg-second font-bold text-fourth">
+              <AccordionItem title="3. Why is the Earth round?" className="bg-third font-bold text-fourth">
               <span className="font-normal">The Earth is round because of gravity. When the Earth was formed, gravity pulled matter together, forming a sphere as it is the most stable shape.</span>
               </AccordionItem>
-              <AccordionItem title="4. Why is the Earth round?" className="bg-second font-bold text-fourth">
+              <AccordionItem title="4. Why is the Earth round?" className="bg-third font-bold text-fourth">
                 <span className="font-normal">The Earth is round because of gravity. When the Earth was formed, gravity pulled matter together, forming a sphere as it is the most stable shape.</span>
               </AccordionItem>
             </Accordion>
