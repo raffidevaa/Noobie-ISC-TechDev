@@ -22,7 +22,7 @@ export default function Footer() {
     {
       menu: 'Pricing',
       child: [
-        { name: 'Premium', url: '/' },
+        { name: 'Premium', url: '/payment' },
         { name: 'Normal', url: '/' },
       ],
     },

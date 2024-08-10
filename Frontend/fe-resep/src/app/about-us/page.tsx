@@ -49,32 +49,32 @@ export default function Home() {
         
         {/* Section 2 */}
         <div className="h-screen flex items-center justify-center relative">
-  <div className="p-6 bg-yellow-100 flex items-center justify-center mx-auto z-10">
-    <div className="w-1/2 flex justify-center items-center">
-      <Image
-        height={300}
-        width={300}
-        src="/image/about/sdg2.png"
-        alt="Healthy Made Easy"
-        className="rounded-xl"
-      />
-    </div>
-    <div className="w-1/2 flex justify-center">
-      <div>
-        <h1 className="text-5xl font-extrabold text-fourth">SDGs Number 2</h1>
-        <p className="mt-4 text-lg text-fourth w-[80%]">
-          We choose SavorIt because we want to promote the idea from SDG number 2 about food.
-          As college students, we often have to do things on our own. And that means cooking too.
-          We want to make cooking available and easy for everyone, whether they are someone expert or even newbies alike.
-          With that idea in mind, we sparked the creation of SavorIt to help people save their health and time.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div className="absolute z-0 right-0 bottom-0">
-    <Image src="/image/landing-page/bglanding3.png" width={500} height={500} alt="background" />
-  </div>
-</div>
+          <div className="p-6 bg-yellow-100 flex items-center justify-center mx-auto z-10">
+            <div className="w-1/2 flex justify-center items-center">
+              <Image
+                height={300}
+                width={300}
+                src="/image/about/sdg2.png"
+                alt="Healthy Made Easy"
+                className="rounded-xl"
+              />
+            </div>
+            <div className="w-1/2 flex justify-center">
+              <div>
+                <h1 className="text-5xl font-extrabold text-fourth">SDGs Number 2</h1>
+                <p className="mt-4 text-lg text-fourth w-[80%]">
+                  We choose SavorIt because we want to promote the idea from SDG number 2 about food.
+                  As college students, we often have to do things on our own. And that means cooking too.
+                  We want to make cooking available and easy for everyone, whether they are someone expert or even newbies alike.
+                  With that idea in mind, we sparked the creation of SavorIt to help people save their health and time.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute z-0 right-0 bottom-0">
+            <Image src="/image/landing-page/bglanding3.png" width={250} height={250} alt="background"/>
+          </div>
+        </div>
 
 
         {/* Section 2 */}
