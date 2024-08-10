@@ -84,9 +84,11 @@ export default function ResepPage() {
                 {recipes.map((recipe, index) => (
                     <Card shadow="sm" key={index} isPressable onPress={() => handleCardClick(recipe.recipe_name)}>
                     <CardBody className="overflow-visible p-0">
-                    <img
+                    <Image
                         className="w-full object-cover h-[200px]"
-                        src={recipe.picture}
+                        width={200}
+                        height={200}
+                        src={recipe.picture} alt='Image food'
                     />
                     </CardBody>
                     <CardFooter className="text-small flex flex-col items-start">
