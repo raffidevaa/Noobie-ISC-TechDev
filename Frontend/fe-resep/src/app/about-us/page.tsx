@@ -63,10 +63,7 @@ export default function Home() {
               <div>
                 <h1 className="text-5xl font-extrabold text-fourth">SDGs Number 2</h1>
                 <p className="mt-4 text-lg text-fourth w-[80%]">
-                  We choose SavorIt because we want to promote the idea from SDG number 2 about food.
-                  As college students, we often have to do things on our own. And that means cooking too.
-                  We want to make cooking available and easy for everyone, whether they are someone expert or even newbies alike.
-                  With that idea in mind, we sparked the creation of SavorIt to help people save their health and time.
+                The Sustainable Development Goals (SDG) 2 is focused on "Zero Hunger." Its primary objective is to end hunger, achieve food security and improved nutrition, and promote sustainable agriculture. This goal addresses the need to ensure that all people, particularly those in vulnerable situations, have access to sufficient, safe, and nutritious food all year round. It also emphasizes the importance of supporting small-scale farmers, enhancing agricultural productivity, and promoting sustainable food production systems to maintain the resources needed for future generations.
                 </p>
               </div>
             </div>
@@ -101,7 +98,7 @@ export default function Home() {
                         Hustler
                     </p>
                     <p className="mt-4 text-lg text-[#FFFFFF] text-start">
-                        "Semangat dan komitmen dari masing-masing kita adalah bahan bakar yang akan membawa kita menuju keberhasilan."
+                    &quot;Semangat dan komitmen dari masing-masing kita adalah bahan bakar yang akan membawa kita menuju keberhasilan.&quot;
                     </p>
                   </div>
                   <div className="mt-4 flex justify-center w-1/3">
@@ -125,7 +122,7 @@ export default function Home() {
                         Hipster
                     </p>
                     <p className="mt-4 text-lg text-[#FFFFFF] text-start">
-                        "Setiap elemen dalam desain memiliki cerita yang perlu disampaikan dengan jelas dan sederhana."                    
+                    &quot;Setiap elemen dalam desain memiliki cerita yang perlu disampaikan dengan jelas dan sederhana.&quot;                    
                     </p>
                   </div>
                   <div className="mt-4 flex justify-center w-1/3">
@@ -149,7 +146,7 @@ export default function Home() {
                         Hipster
                     </p>
                     <p className="mt-4 text-lg text-[#FFFFFF] text-start">
-                    "Fokuslah pada pengguna, dan segalanya akan mengikuti."
+                    &quot;Fokuslah pada pengguna, dan segalanya akan mengikuti.&quot;
                     </p>
                   </div>
                   <div className="mt-4 flex justify-center w-1/3">
@@ -173,7 +170,7 @@ export default function Home() {
                         Hacker
                     </p>
                     <p className="mt-4 text-lg text-[#FFFFFF] text-start">
-                    "Scalability is not an afterthought, it's a design philosophy."
+                    &quot;Scalability is not an afterthought, it's a design philosophy.&quot;
                     </p>
                   </div>
                   <div className="mt-4 flex justify-center w-1/3">
@@ -197,7 +194,7 @@ export default function Home() {
                         Hacker
                     </p>
                     <p className="mt-4 text-lg text-[#FFFFFF] text-start">
-                    "Beauty in an interface lies in making complexity appear simple."
+                    &quot;Beauty in an interface lies in making complexity appear simple.&quot;
                     </p>
                   </div>
                   <div className="mt-4 flex justify-center w-1/3">
