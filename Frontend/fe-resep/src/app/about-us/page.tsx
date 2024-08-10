@@ -38,12 +38,12 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex justify-center">
                 <h1 className="text-8xl font-extrabold text-fourth">
-                About <span className="bg-second">Us</span>
+                ABOUT <span className="bg-second">US</span>
               </h1>
             </div>
           </div>
           <div className="absolute z-0 right-0 bottom-0">
-            <Image src="/image/landing-page/backgroundisc.png" width={500} height={500} alt="background" />
+            <Image src="/image/landing-page/bglanding3.png" width={500} height={500} alt="background" />
           </div>
         </div>
         
@@ -61,7 +61,7 @@ export default function Home() {
     </div>
     <div className="w-1/2 flex justify-center">
       <div>
-        <h1 className="text-5xl font-extrabold text-fourth">Why SavorIt?</h1>
+        <h1 className="text-5xl font-extrabold text-fourth">SDGs Number 2</h1>
         <p className="mt-4 text-lg text-fourth w-[80%]">
           We choose SavorIt because we want to promote the idea from SDG number 2 about food.
           As college students, we often have to do things on our own. And that means cooking too.
@@ -72,7 +72,7 @@ export default function Home() {
     </div>
   </div>
   <div className="absolute z-0 right-0 bottom-0">
-    <Image src="/image/landing-page/backgroundisc.png" width={500} height={500} alt="background" />
+    <Image src="/image/landing-page/bglanding3.png" width={500} height={500} alt="background" />
   </div>
 </div>
 
@@ -81,7 +81,7 @@ export default function Home() {
         <div className="h-screen flex items-center justify-center relative">
           <div className="p-6 w-4/5 mx-auto">
             <h1 className="text-8xl font-extrabold text-fourth text-center mb-4">
-              MEET OUR TALENTS
+              MEET OUR <span className="bg-second">TALENTS</span>
             </h1>
             <Swiper
               modules={[Navigation, Pagination]}
@@ -215,6 +215,9 @@ export default function Home() {
           </div>
           <div className="absolute z-0 right-0 top-0">
             <Image src="/image/landing-page/bghero2.png" width={500} height={500} alt="background" />
+          </div>
+          <div className="absolute z-0 left-0 bottom-0">
+            <Image src="/image/landing-page/bglanding3.png" width={500} height={500} alt="background" className="rotate-90"/>
           </div>
         </div>
       </div>
