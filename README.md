@@ -19,9 +19,14 @@ bash
 git --version
 
 
-##📦 Instalasi
+## 📦 Instalasi
 Ikuti langkah-langkah di bawah ini untuk mengatur proyek di mesin lokal Anda.
 
 1. Clone Repository
 Clone repository ini menggunakan perintah Git:
 
+
+2. Masuk ke Direktori Proyek
+Navigasi ke direktori proyek yang baru saja di-clone:
+kalau ingin menjalankan backend maka cd backend
+kalau ingin menjalankan frontend maka cd frontend/fe-resep
