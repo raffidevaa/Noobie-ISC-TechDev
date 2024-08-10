@@ -22,13 +22,13 @@ export default function Footer() {
     {
       menu: 'Pricing',
       child: [
-        { name: 'Premium', url: '/package' },
-        { name: 'Normal', url: '/package' },
+        { name: 'Premium', url: '/' },
+        { name: 'Normal', url: '/' },
       ],
     },
     {
-      menu: 'Contact Us',
-      child: [{ name: 'Line', url: '/contact' }],
+      menu: 'dashboard',
+      child: [{ name: 'profile', url: '/dashboard' }],
     },
   ];
 
@@ -81,7 +81,7 @@ export default function Footer() {
         <div className='flex items-center gap-4 mb-4 md:mb-0'>
           <div className='flex flex-col'>
           <p className='text-5xl md:text-sm xl:text-lg font-bold'>
-            Stovit
+            Savorit
           </p>
           <p className='text-lg md:text-sm xl:text-lg'>all right reserved</p>
           </div>
