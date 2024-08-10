@@ -17,3 +17,11 @@ Unduh Git
 
 bash
 git --version
+
+
+##📦 Instalasi
+Ikuti langkah-langkah di bawah ini untuk mengatur proyek di mesin lokal Anda.
+
+1. Clone Repository
+Clone repository ini menggunakan perintah Git:
+
