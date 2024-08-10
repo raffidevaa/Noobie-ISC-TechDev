@@ -3,6 +3,8 @@ import React from 'react';
 import Layout from '@/layout/Layout';
 import { useParams } from 'next/navigation';
 import { recipes } from '@/contents/DummyReceipt';
+import Image from "next/image";
+
 
 export default function RecipeDetailPage() {
     const params = useParams();
@@ -27,20 +29,26 @@ export default function RecipeDetailPage() {
                     <div className='flex flex-row'>
                     <div className="text-center w-full flex flex-col">
                         <div className='flex'>
-                        <img
+                        <Image
                             src={recipe.picture}
+                            width={200}
+                            height={200}
                             alt={recipe.recipe_name}
                             className="w-72 h-72 mx-auto object-cover rounded-lg"
                         />
                         </div>
                         <div className='flex mt-2'>
-                        <img
+                        <Image
                             src={recipe.picture}
+                            width={200}
+                            height={200}
                             alt={recipe.recipe_name}
                             className="w-36 h-36 ml-auto  object-cover rounded-lg"
                         />
-                        <img
+                        <Image
                             src={recipe.picture}
+                            width={200}
+                            height={200}
                             alt={recipe.recipe_name}
                             className="w-36 h-36 mr-auto object-cover rounded-lg"
                         />
@@ -104,7 +112,7 @@ export default function RecipeDetailPage() {
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-4">
                             {recipes.map((similarRecipe, index) => (
                                 <div key={index} className="bg-[#FFFFFF] p-4 rounded shadow">
-                                    <img src={similarRecipe.picture} alt={similarRecipe.recipe_name} className="w-full h-32 object-cover rounded mb-2"/>
+                                    <Image src={similarRecipe.picture} width={200} height={200} alt={similarRecipe.recipe_name} className="w-full h-32 object-cover rounded mb-2"/>
                                     <p className="text-sm font-semibold text-fourth">{similarRecipe.recipe_name}</p>
                                     <p className="text-yellow-500 text-fourth">⭐⭐⭐⭐⭐</p>
                                     <p className="text-sm text-fourth">{similarRecipe.calories}</p>
