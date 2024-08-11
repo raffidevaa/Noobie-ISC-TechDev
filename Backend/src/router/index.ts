@@ -5,7 +5,7 @@ import AuthRoutes from './auth.router';
 import RecipeRoutes from './recipe.router'
 
 router.use('/auth', AuthRoutes);
-router.use('/recipe', RecipeRoutes);
+router.use('/resep', RecipeRoutes);
 
 export default router;
 

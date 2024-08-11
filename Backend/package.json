@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --watch 'Backend/**/*.ts' --exec 'ts-node' ./src/index.ts",
     "seed": "npx ts-node prisma/seeder/seeder.ts",
@@ -29,6 +30,7 @@
     "@types/express": "^4.17.21",
     "@types/http-status-codes": "^1.2.0",
     "@types/node": "^22.0.0",
-    "prisma": "^5.17.0"
+    "prisma": "^5.17.0",
+    "typescript": "^5.5.4"
   }
 }
