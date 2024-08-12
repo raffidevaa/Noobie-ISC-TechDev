@@ -1,4 +1,6 @@
 Install Express, cors, dotenv
+
+```bash
 npm install express cors dotenv
 
 run server
@@ -7,6 +9,7 @@ npm run start
 Install prisma 
 npm install @prisma/client
 npx prisma init
+```
 
 Setup docker
 docker login
